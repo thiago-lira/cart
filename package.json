@@ -1,0 +1,20 @@
+{
+  "name": "cart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Thiago Lira <lira_thiago@msn.com>",
+  "license": "MIT",
+  "scripts": {
+    "test:unit": "jest",
+    "dev": "concurrently 'node esbuild development' 'http-server ./public'"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.16.11",
+    "@types/jest": "^27.4.1",
+    "concurrently": "^7.0.0",
+    "esbuild": "^0.14.27",
+    "http-server": "^14.1.0",
+    "jest": "^27.5.1",
+    "typescript": "^4.6.2"
+  }
+}
